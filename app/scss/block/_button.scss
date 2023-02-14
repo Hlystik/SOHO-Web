@@ -1,0 +1,122 @@
+.button {
+  background: #74B788;
+  box-shadow: -1px 5px 11px rgba(0, 0, 0, 0.08), 0px 0px 0px rgba(0, 0, 0, 0.08), -20px 77px 32px rgba(0, 0, 0, 0.01), -11px 43px 27px rgba(0, 0, 0, 0.04), -5px 19px 20px rgba(0, 0, 0, 0.07), -1px 5px 11px rgba(0, 0, 0, 0.08), 0px 0px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  &_subheader {
+    width: 261px;
+    height: 59px;
+    margin-top: 35px;
+  }
+  &_speakers {
+    width: 271px;
+    height: 63px;
+    margin: 0 auto;
+    margin-top: 67px;
+  }
+  &_registration {
+    background: #295C9B;
+    box-shadow: -20px 77px 32px rgba(0, 0, 0, 0.01), -11px 43px 27px rgba(0, 0, 0, 0.04), -5px 19px 20px rgba(0, 0, 0, 0.07), -1px 5px 11px rgba(0, 0, 0, 0.08), 0px 0px 0px rgba(0, 0, 0, 0.31);
+    width: 274px;
+    height: 66px;
+    margin-top: 37px;
+  }
+  &_main,
+  &_for-whom {
+    width: 261px;
+    height: 50px;
+    font-size: 14px;
+  }
+  &_main {
+    margin-top: 36px;
+  }
+  &_for-whom {
+    margin: 0 auto;
+    margin-top: 90px;
+  }
+  &_info {
+    width: 395px;
+    font-size: 15px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  &_media {
+    width: 240px;
+    height: 46px;
+    margin-top: 28px;
+    font-size: 12.3723px;
+    font-weight: 500;
+    box-shadow: none;
+  }
+  &_final {
+    background: #295C9B;
+    font-weight: 500;
+    width: 247px;
+    height: 46px;
+    margin-top: 26px;
+  }
+}
+@media (max-width:991px) {
+  .button {
+    &_main,
+    &_subheader {
+      margin-top: 20px;
+    }
+  }
+}
+@media (max-width:991px) {
+  .button {
+    &_main,
+    &_subheader {
+      margin: 0 auto;
+      margin-top: 30px;
+    }
+    &_info {
+      margin-top: 90px;
+    }
+  }
+}
+@media (max-width:767px) {
+  .button {
+    &_info {
+      margin-top: 57px;
+    }
+    &_media {
+      margin: 0 auto;
+      margin-top: 25px;
+    }
+    &_final {
+      margin: 0 auto;
+      margin-top: 36px;
+    }
+    &_speakers {
+      margin-top: 58px;
+    }
+    &_registration {
+      width: 265px;
+      height: 64px;
+      margin: 32px auto 0;
+    }
+  }
+}
+@media (max-width:575px) {
+  .button {
+    &_subheader {
+      height: 50px;
+    }
+    &_for-whom {
+      margin-top: 57px;
+    }
+    &_info {
+      width: 261px;
+      height: 68px;
+      text-align: center;
+      padding: 0 36px;
+    }
+  }
+}

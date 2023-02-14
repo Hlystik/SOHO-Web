@@ -1,0 +1,65 @@
+.title {
+  font-weight: 600;
+  font-size: 35px;
+  color: #000000;
+  line-height: 148%;
+  &_subheader {
+    margin-top: 25px;
+  }
+  &_main {
+    font-size: 40px;
+    max-width: 662px;
+  }
+  &_registration {
+    font-size: 42.2691px;
+    line-height: 148.52%;
+  }
+  &_webinar {
+    text-align: center;
+    max-width: 797px;
+    margin: 0 auto;
+  }
+  &_info,
+  &_benefit,
+  &_for-whom,
+  &_speakers,
+  &_media {
+    text-align: center;
+  }
+}
+@media (max-width:1100px) {
+  .title {
+    &_main {
+      font-size: 35px;
+    }
+  }
+}
+@media (max-width:991px) {
+  .title {
+    font-size: 30px;
+    &_main,
+    &_subheader {
+      font-size: 29px;
+    }
+  }
+}
+@media (max-width:767px) {
+  .title {
+    font-size: 20px;
+    &_main,
+    &_subheader {
+      font-size: 20px;
+    }
+    &_for-whom {
+      font-size: 23px;
+    }
+    &_benefit,
+    &_speakers,
+    &_registration {
+      font-size: 25px;
+    }
+    &_registration {
+      margin-top: 30px;
+    }
+  }
+}

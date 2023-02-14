@@ -1,0 +1,119 @@
+.benefit {
+  padding: 40px 0 50px;
+  &__subtitle {
+    margin-top: 20px;
+  }
+
+  &__wrapper {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    margin-right: 15px;
+    margin-top: 30px;
+    &:first-child {
+      max-width: 218px;
+    }
+    &:nth-child(2) {
+      max-width: 350px;
+    }
+    &:nth-child(3) {
+      max-width: 160px;
+    }
+    &:last-child {
+      max-width: 150px;
+      margin-right: 0;
+    }
+  }
+  &__item-title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #74B788;
+    margin-top: 17px;
+  }
+
+  &__item-text {
+    font-size: 15px;
+    line-height: 165.52%;
+    margin-top: 17px;
+  }
+
+  &__autor {
+    padding: 64px 35px 30px;
+    max-width: 543px;
+    background: #F7F7F7;
+    border: 1.04384px solid #7AB986;
+    box-shadow: 0px 81.4197px 32.3591px rgba(0, 0, 0, 0.01), 0px 45.929px 27.1399px rgba(0, 0, 0, 0.02), 0px 20.8768px 20.8768px rgba(0, 0, 0, 0.03), 0px 5.21921px 11.4823px rgba(0, 0, 0, 0.04), 0px 0px 0px rgba(0, 0, 0, 0.04);
+    border-radius: 28.8272px;
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 110px;
+  }
+  &__autor-avatar {
+    width: 117px;
+    height: 117px;
+    padding: 3px;
+    top: -59px;
+    background-color: #fff;
+    border-radius: 100%;
+    z-index: 4;
+  }
+  .solidtop,
+  .bottom,
+  .dashedline,
+  .whiteline,
+  &__autor-avatar {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .solidtop {
+    width: 120px;
+    height: 119px;
+    top: -60px;
+    z-index: 0;
+    border-radius: 50%;
+    border: 1px solid #83b58c;
+  }
+  .bottom {
+    width: 126px;
+    height: 62px;
+    background-color: #fff;
+    top: -63px;
+    z-index: 1;
+  }
+  .dashedline {
+    width: 120px;
+    height: 120px;
+    top: -61px;
+    border-radius: 50%;
+    border: 1px dashed #83b58c;
+    z-index: 2;
+  } 
+  &__autor-name {
+    font-weight: 600;
+    font-size: 25.0539px;
+  }
+
+  &__autor-text {
+    font-size: 14px;
+    line-height: 165%;
+    margin-top: 10px;
+    color: #646464;
+  }
+
+  &__autor-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #295C9B;
+    font-style: italic;
+    font-weight: 500;
+      font-size: 15px;
+  }
+}

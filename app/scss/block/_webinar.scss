@@ -1,0 +1,45 @@
+.webinar {
+  padding: 50px 0 115px;
+  &_main {
+    background: #F1F1F1;
+  }
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 53px;
+    column-gap: 53px;
+    margin-top: 72px;
+  }
+  &__slider {
+    display: none;
+  }
+  &__item {
+    max-width: 364px;
+    background: #F8F8F8;
+    box-shadow: 0px 81.4197px 32.3591px rgba(0, 0, 0, 0.01), 0px 45.929px 27.1399px rgba(0, 0, 0, 0.02), 0px 20.8768px 20.8768px rgba(0, 0, 0, 0.03), 0px 5.21921px 11.4823px rgba(0, 0, 0, 0.04), 0px 0px 0px rgba(0, 0, 0, 0.04);
+    border-radius: 29px;
+  }
+  &__item-img {
+    border-top-left-radius: 29px;
+    border-top-right-radius: 29px;
+  }
+  &__item-descr {
+    padding: 20px 18px 25px;
+  }
+  &__item-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 148%;
+    margin-top: 15px;
+  }
+  &__item-link {
+    display: inline-block;
+    margin-top: 16px;
+    color: #74B788;
+    text-decoration-line: underline;
+    font-weight: 500;
+    font-size: 13.5px;
+    line-height: 148%;
+  }
+}

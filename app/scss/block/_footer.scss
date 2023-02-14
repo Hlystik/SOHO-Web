@@ -1,0 +1,76 @@
+.footer {
+  background: #F1F1F1;
+  padding-bottom: 40px;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 38px;
+  }
+
+  &__link {
+    padding-top: 12px;
+  }
+
+  &__link-logo_mobile {
+    display: none;
+  }
+
+  &__link-img {
+    width: 110px;
+  }
+
+  &__link-list {
+    margin-top: 18px;
+  }
+
+  &__link-item {
+    margin-top: 3px;
+  }
+
+  &__link-doc {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 148.52%;
+    color: #555555;
+  }
+
+  &__contact {
+    display: flex;
+    flex-direction: column;
+    padding-top: 33px;
+  }
+
+  &__contact-tel {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 148.52%;
+    color: #000000;
+  }
+
+  &__contact-mail {
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 17.3544px;
+    color: #000000;
+    text-decoration: underline;
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+    width: 107px;
+    justify-content: space-between;
+    margin-top: 31px;
+  }
+
+  &__social-vk {
+    
+  }
+
+  &__social-telegram {
+  }
+
+  &__social-inst {
+  }
+}

@@ -1,0 +1,27 @@
+.for-whom {
+  padding: 40px 0 100px;
+  &__wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    max-width: 280px;
+    margin: 87px 5px 0;
+    &:nth-child(2) {
+      max-width: 340px;
+    }
+  }
+
+  &__item-img {
+    margin: 0 auto;
+  }
+
+  &__item-descr {
+    text-align: center;
+    font-size: 16px;
+    line-height: 165.52%;
+    margin-top: 38px;
+  }
+}
