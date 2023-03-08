@@ -1,5 +1,5 @@
 .info {
-  background: #F1F1F1;
+  //background: #F1F1F1;
   padding: 55px 0;
   &__subtitle {
     font-size: 19px;
@@ -30,6 +30,7 @@
   }
   &__slider-img {
     border-radius: 29px;
+    cursor: pointer;
   }
   &__list-item {
     display: flex;

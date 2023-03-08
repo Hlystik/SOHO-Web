@@ -1,5 +1,6 @@
 .benefit {
   padding: 40px 0 50px;
+  background: #F1F1F1;
   &__subtitle {
     margin-top: 20px;
   }
@@ -87,6 +88,7 @@
     background-color: #fff;
     top: -63px;
     z-index: 1;
+    background: #F1F1F1;
   }
   .dashedline {
     width: 120px;
@@ -100,20 +102,18 @@
     font-weight: 600;
     font-size: 25.0539px;
   }
-
   &__autor-text {
     font-size: 14px;
     line-height: 165%;
     margin-top: 10px;
     color: #646464;
   }
-
   &__autor-link {
     display: inline-block;
     margin-top: 15px;
     color: #295C9B;
     font-style: italic;
     font-weight: 500;
-      font-size: 15px;
+    font-size: 15px;
   }
 }
